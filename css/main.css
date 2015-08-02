@@ -7,41 +7,59 @@ li {
    margin: 25px;
    font-size: 2rem;
 }
-#navcontainer {
-   padding-top: 135px;
+header {
    position: fixed;
-   right: 5%;
+   top: 10px;
+   width: 100%;
+}
+nav {
+   position: fixed;
+   left: 600px;
+   top: 140px;
+   width: 1000px;
+   overflow-x: hidden;
 }
 a:link {
-color: #000;
-text-decoration: none;
+   color: #000;
+   text-decoration: none;
 }
 a:visited {
-color: #000;
-text-decoration: none;
+   color: #000;
+   text-decoration: none;
 }
 li a:link {
-color: #000;
-text-decoration: none;
+   color: #000;
+   text-decoration: none;
 }
 li a:visited {
-font-style: none;
-color: #000;
+   font-style: none;
+   color: #000;
 }
 li a:hover {
-font-size: 2rem;
-transition: .25s;
+   font-size: 2rem;
+   transition: .25s;
 }
 li a:active {
-font-style: none;
+   font-style: none;
 }
 h1 {
-   float: left;
    padding-top: 10px;
-   padding-left: 10px;
+   padding-left: 70px;
    font-family: 'Avenir-Heavy';
    font-size: 20rem;
    letter-spacing: -1.5rem
+}
+#good {
+   font-size: 2.68rem;
+}
+p {
+   padding-left:95px;
+   font-family: 'AvenirNext-UltraLight';
+   font-size: 3rem;
+}
+i {
+font-family: 'AvenirNext-UltraLightItalic';
+font-size: 2.5rem;
 }
 
 /* FONTS YAY */
@@ -66,6 +84,6 @@ h1 {
    src: url('../fonts/AvenirNext-UltraLightItalic.ttf') format('truetype');
 }
 @font-face {
-   font-family: 'AvenirNext';
-   src: url('../fonts/Avenir-Next.ttf') format('truetype');
+   font-family: 'AvenirNext-Italic';
+   src: url('../fonts/AvenirNext-Italic.ttf') format('truetype');
 }
