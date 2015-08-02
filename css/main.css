@@ -1,0 +1,42 @@
+body {
+   font-family: 'AvenirNext-UltraLight', sans-serif;
+}
+li {
+   display: inline;
+   list-style: none;
+   margin: 25px;
+}
+#navcontainer {
+   text-align: center;
+   padding-top: 100px;
+}
+h1 {
+   text-align: center;
+   padding-top: 75px;
+}
+
+/* FONTS YAY */
+@font-face {
+   font-family: 'AvenirNext-Regular';
+   src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'AvenirNext-Heavy';
+   src: url('../fonts/AvenirNext-Heavy.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'AvenirNext-HeavyItalic';
+   src: url('../fonts/AvenirNext-HeavyItalic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'AvenirNext-UltraLight';
+   src: url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'AvenirNext-UltraLightItalic';
+   src: url('../fonts/AvenirNext-UltraLightItalic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Avenir Next';
+   src: url('../fonts/Avenir-Next.ttf') format('ttc');
+}
