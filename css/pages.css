@@ -77,12 +77,14 @@ font-style: italic;
 color: #CBAEC1;
 }
 footer {
-   text-align: center;
    position: fixed;
    left: 35%;
    bottom: 10px;
+}
+footer p {
    font-family: 'AvenirNext-Regular', sans-serif;
    font-size: .7rem;
+   text-align: center;
 }
 
 /* LINKS */
