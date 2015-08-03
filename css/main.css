@@ -59,7 +59,7 @@ a:visited {
    color: #5c003d;
    text-decoration: none;
 }
-a:hover {
+header a:hover {
    color: #CBAEC1;
 }
 a.last:link {

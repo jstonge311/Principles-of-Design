@@ -52,17 +52,19 @@ li {
    text-align: center;
 }
 .current {
-   padding: 10px 22px 10px 22px;
+   padding: 10px 25px 13px 25px;
    background-color: #5c003d;
    color: #CBAEC1;
    font-family: "Baskverville Libre";
+   font-size: 2.27rem;
    font-weight: 700;
 }
 .current-last{
-   padding: 10px 20px 10px 15px;
+   padding: 10px 19px 13px 14px;
    background-color: #5c003d;
    color: #CBAEC1;
-   font-family: "AvenirNext-Heavy";
+   font-family: "Baskerville Libre";
+   font-size: 2.27rem;
 }
 
 /* LINKS */
@@ -74,7 +76,7 @@ a:visited {
    color: #5c003d;
    text-decoration: none;
 }
-a:hover {
+header a:hover {
    color: #CBAEC1;
 }
 a.last:link {
@@ -94,56 +96,58 @@ li a:visited {
 li a:hover {
    background-color: #5c003d;
    color: #CBAEC1;
+   padding: 10px 25px 10px 25px;
 }
 
+/* BODY COPY INDENTATION */
 main#one {
-   width: 425px;
+   width: 375px;
    margin-left: 167px;
    margin-top: 100px;
 }
 main#two {
-   width: 425px;
-   margin-left: 167px;
+   width: 345px;
+   margin-left: 239px;
    margin-top: 100px;
 }
 main#three {
-   width: 425px;
-   margin-left: 167px;
+   width: 350px;
+   margin-left: 315px;
    margin-top: 100px;
 }
 main#four {
-   width: 425px;
-   margin-left: 167px;
+   width: 350px;
+   margin-left: 386px;
    margin-top: 100px;
 }
 main#five {
-   width: 425px;
-   margin-left: 167px;
+   width: 350px;
+   margin-left: 459px;
    margin-top: 100px;
 }
 main#six {
-   width: 425px;
-   margin-left: 167px;
+   width: 325px;
+   margin-left: 530px;
    margin-top: 100px;
 }
 main#seven {
-   width: 425px;
-   margin-left: 167px;
+   width: 325px;
+   margin-left: 603px;
    margin-top: 100px;
 }
 main#eight {
-   width: 425px;
-   margin-left: 167px;
+   width: 325px;
+   margin-left: 675px;
    margin-top: 100px;
 }
 main#nine {
-   width: 425px;
-   margin-left: 167px;
+   width: 325px;
+   margin-left: 747px;
    margin-top: 100px;
 }
 main#ten {
-   width: 425px;
-   margin-left: 167px;
+   width: 325px;
+   margin-left: 818px;
    margin-top: 100px;
 }
 #subhead {
