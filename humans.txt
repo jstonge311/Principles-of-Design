@@ -1,0 +1,12 @@
+humans.txt
+
+FONTS USED
+
+Avenir Next Regular (Adrian Frutiger, Linotype GmbH, 1988)
+Avenir Next UltraLight  (Adrian Frutiger, Linotype GmbH, 1988)
+Libre Baskerville (Impallari Type, Google Fonts)
+
+IMAGES USED
+
+handmadepaper.png, background image
+credit: user Le Marquis for subtlepatterns.com

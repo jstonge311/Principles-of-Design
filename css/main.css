@@ -1,18 +1,14 @@
 body {
-   font-family: 'AvenirNext-UltraLight', sans-serif;
    background: url(../img/handmadepaper.png);
 }
 header {
    width: 1100px;
    height: 500px;
 }
-.title {
-   float: left;
-}
 h1 {
    margin-top: 50px;
    padding-left: 110px;
-   font-family: 'Libre Baskerville';
+   font-family: 'Libre Baskerville', serif;
    font-weight: 700;
    font-size: 20rem;
    letter-spacing: -1.5rem;
@@ -20,17 +16,17 @@ h1 {
 }
 h2 {
    padding-left: 110px;
-   font-family: 'AvenirNext-UltraLight';
    font-size: 6rem;
+   font-family: 'AvenirNext-UltraLight', sans-serif;
 }
 i {
-font-family: 'Libre Baskerville';
+font-family: 'Libre Baskerville', serif;
 font-style: italic;
 font-size: 3rem;
+color: #CBAEC1;
 }
 #good {
    font-size: 5.35rem;
-   font-family: 'AvenirNext-UltraLight';
    letter-spacing: -.2rem;
 }
 ul:first-of-type {
@@ -41,33 +37,21 @@ ul {
 }
 .nav {
    float: right;
-   text-align: right;
 }
 li {
    display: inline;
-   list-style: none;
    font-size: 2rem;
-   text-align: center;
+   font-family: 'AvenirNext-UltraLight', sans-serif;
+}
+footer {
+   position: fixed;
+   left: 35%;
+   bottom: 10px;
+   font-family: "AvenirNext-Regular";
+   font-size: .7rem;
 }
 
 /* LINKS */
-a:link {
-   color: #5c003d;
-   text-decoration: none;
-}
-a:visited {
-   color: #5c003d;
-   text-decoration: none;
-}
-header a:hover {
-   color: #CBAEC1;
-}
-a.last:link {
-   color: #000;
-   text-decoration: none;
-   padding: 12px 16px 12px 16px;
-   text-align: left;
-}
 li a:link {
    color: #000;
    text-decoration: none;
@@ -82,29 +66,23 @@ li a:hover {
    background-color: #5c003d;
    color: #CBAEC1;
 }
+li a.last:link {
+   padding: 12px 16px 12px 16px;
+}
+footer a:link {
+   color: #5c003d;
+   text-decoration: none;
+}
+footer a:visited {
+   color: #CBAEC1;
+}
 
-/* FONTS YAY */
+/* FONTS */
 @font-face {
    font-family: 'AvenirNext-Regular';
    src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
 }
 @font-face {
-   font-family: 'AvenirNext-Heavy';
-   src: url('../fonts/AvenirNext-Heavy.ttf') format('truetype');
-}
-@font-face {
-   font-family: 'AvenirNext-HeavyItalic';
-   src: url('../fonts/AvenirNext-HeavyItalic.ttf') format('truetype');
-}
-@font-face {
    font-family: 'AvenirNext-UltraLight';
    src: url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
-}
-@font-face {
-   font-family: 'AvenirNext-UltraLightItalic';
-   src: url('../fonts/AvenirNext-UltraLightItalic.ttf') format('truetype');
-}
-@font-face {
-   font-family: 'AvenirNext-Italic';
-   src: url('../fonts/AvenirNext-Italic.ttf') format('truetype');
 }
