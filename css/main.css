@@ -1,12 +1,30 @@
 body {
    font-family: 'AvenirNext-UltraLight', sans-serif;
+   background: url(../img/handmadepaper.png);
 }
 header {
-      width: 1300px;
+   width: 1300px;
+   height: 400px;
 }
 .title {
    float: left;
    width: 400px;
+}
+h1 {
+   margin-top: 18px;
+   margin-left: 40px;
+   font-family: 'AvenirNext-Heavy';
+   font-size: 10rem;
+   letter-spacing: -1.5rem;
+   color: #5c003d;
+}
+h2 {
+   padding-left: 55px;
+   font-family: 'AvenirNext-UltraLight';
+   font-size: 3rem;
+}
+#good {
+   font-size: 2.68rem;
 }
 .nav {
    padding: 150px 50px 0 0;
@@ -31,11 +49,8 @@ li {
    color: #CBAEC1;
    font-family: "AvenirNext-Heavy";
 }
-a.last:link {
-   color: #000;
-   text-decoration: none;
-   padding: 10px 20px 10px 15px;
-}
+
+/* LINKS */
 a:link {
    color: #5c003d;
    text-decoration: none;
@@ -46,6 +61,11 @@ a:visited {
 }
 a:hover {
    color: #CBAEC1;
+}
+a.last:link {
+   color: #000;
+   text-decoration: none;
+   padding: 10px 20px 10px 15px;
 }
 li a:link {
    color: #000;
@@ -60,24 +80,10 @@ li a:hover {
    background-color: #5c003d;
    color: #CBAEC1;
 }
-li a:active {
-   font-style: none;
-}
-h1 {
-   margin-top: 18px;
-   margin-left: 40px;
-   font-family: 'AvenirNext-Heavy';
-   font-size: 10rem;
-   letter-spacing: -1.5rem;
-   color: #5c003d;
-}
-#good {
-   font-size: 2.68rem;
-}
-h2 {
-   padding-left: 55px;
-   font-family: 'AvenirNext-UltraLight';
-   font-size: 3rem;
+
+main {
+   width: 300px;
+   margin: auto;
 }
 p {
    font-family: 'Libre Baskerville', serif;
