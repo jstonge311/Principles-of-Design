@@ -1,23 +1,38 @@
 body {
    font-family: 'AvenirNext-UltraLight', sans-serif;
 }
-li {
-   display: inline-block;
-   list-style: none;
-   margin: 25px;
-   font-size: 2rem;
-}
 header {
-   position: fixed;
-   top: 10px;
-   width: 100%;
+      width: 1300px;
 }
-nav {
-   position: fixed;
-   left: 600px;
-   top: 140px;
-   width: 1000px;
-   overflow-x: hidden;
+.title {
+   float: left;
+   width: 400px;
+}
+.nav {
+   padding: 200px 50px 0 0;
+   float: right;
+   text-align: right;
+}
+li {
+   display: inline;
+   list-style: none;
+   font-size: 2rem;
+   text-align: center;
+}
+.current {
+   padding: 10px 25px 10px 25px;
+   background-color: #504b65;
+   color: #fff;
+}
+.current-last{
+   padding: 10px 20px 10px 15px;
+   background-color: #504b65;
+   color: #fff;
+}
+a.last:link {
+   color: #000;
+   text-decoration: none;
+   padding: 10px 20px 10px 15px;
 }
 a:link {
    color: #000;
@@ -27,39 +42,43 @@ a:visited {
    color: #000;
    text-decoration: none;
 }
+a:hover {
+   color: #504b65;
+}
 li a:link {
    color: #000;
    text-decoration: none;
+   padding: 10px 25px 10px 25px;
 }
 li a:visited {
    font-style: none;
    color: #000;
 }
 li a:hover {
-   font-size: 2rem;
-   transition: .25s;
+   background-color: #504b65;
+   color: #fff;
 }
 li a:active {
    font-style: none;
 }
 h1 {
    padding-top: 10px;
-   padding-left: 70px;
-   font-family: 'Avenir-Heavy';
+   padding-left: 65px;
+   font-family: 'AvenirNext-Regular';
    font-size: 20rem;
-   letter-spacing: -1.5rem
+   letter-spacing: -1.5rem;
 }
 #good {
-   font-size: 2.68rem;
+   font-size: 2.6rem;
 }
 p {
-   padding-left:95px;
+   padding-left: 95px;
    font-family: 'AvenirNext-UltraLight';
    font-size: 3rem;
 }
 i {
 font-family: 'AvenirNext-UltraLightItalic';
-font-size: 2.5rem;
+font-size: 2rem;
 }
 
 /* FONTS YAY */
