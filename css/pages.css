@@ -4,32 +4,46 @@ body {
 }
 header {
    width: 1300px;
-   height: 400px;
+   height: 250px;
 }
 .title {
    float: left;
+   padding-top: 30px;
    width: 400px;
 }
 h1 {
-   margin-top: 18px;
-   margin-left: 40px;
-   font-family: 'AvenirNext-Heavy';
-   font-size: 10rem;
-   letter-spacing: -1.5rem;
+   float: left;
+   margin-top: 20px;
+   margin-left: 55px;
+   font-family: 'Libre Baskerville';
+   font-weight: 700;
+   font-size: 6rem;
+   letter-spacing: -.5rem;
    color: #5c003d;
+   position: relative;
 }
 h2 {
-   padding-left: 55px;
+   padding-left: 15px;
    font-family: 'AvenirNext-UltraLight';
-   font-size: 3rem;
+   font-size: 2.5rem;
 }
 #good {
-   font-size: 2.68rem;
+   font-size: 2.3rem;
+   letter-spacing: -.1rem;
+}
+h3 {
+   font-size: 3rem;
+   font-family: 'Libre Baskerville';
+}
+.subhead {
+   position: absolute;
+   padding-top: 165px;
+   left: 55px;
 }
 .nav {
-   padding: 150px 50px 0 0;
-   float: right;
-   text-align: right;
+   padding: 160px 110px 0 15px;
+   float: left;
+   text-align: left;
 }
 li {
    display: inline;
@@ -41,7 +55,8 @@ li {
    padding: 10px 22px 10px 22px;
    background-color: #5c003d;
    color: #CBAEC1;
-   font-family: "AvenirNext-Heavy";
+   font-family: "Baskverville Libre";
+   font-weight: 700;
 }
 .current-last{
    padding: 10px 20px 10px 15px;
@@ -81,16 +96,67 @@ li a:hover {
    color: #CBAEC1;
 }
 
-main {
-   width: 300px;
-   margin: auto;
+main#one {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#two {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#three {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#four {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#five {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#six {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#seven {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#eight {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#nine {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+main#ten {
+   width: 425px;
+   margin-left: 167px;
+   margin-top: 100px;
+}
+#subhead {
+   float: left;
 }
 p {
    font-family: 'Libre Baskerville', serif;
+   line-height: 1.6rem;
 }
 i {
-font-family: 'AvenirNext-UltraLightItalic';
-font-size: 2rem;
+font-family: 'Libre Baskerville';
+font-size: 1.5rem;
+font-style: italic;
 }
 
 /* FONTS YAY */
