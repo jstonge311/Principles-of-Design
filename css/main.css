@@ -9,7 +9,7 @@ header {
    width: 400px;
 }
 .nav {
-   padding: 200px 50px 0 0;
+   padding: 150px 50px 0 0;
    float: right;
    text-align: right;
 }
@@ -21,14 +21,15 @@ li {
 }
 .current {
    padding: 10px 22px 10px 22px;
-   background-color: #504b65;
-   color: #fff;
+   background-color: #5c003d;
+   color: #CBAEC1;
    font-family: "AvenirNext-Heavy";
 }
 .current-last{
    padding: 10px 20px 10px 15px;
-   background-color: #504b65;
-   color: #fff;
+   background-color: #5c003d;
+   color: #CBAEC1;
+   font-family: "AvenirNext-Heavy";
 }
 a.last:link {
    color: #000;
@@ -36,15 +37,15 @@ a.last:link {
    padding: 10px 20px 10px 15px;
 }
 a:link {
-   color: #000;
+   color: #5c003d;
    text-decoration: none;
 }
 a:visited {
-   color: #000;
+   color: #5c003d;
    text-decoration: none;
 }
 a:hover {
-   color: #504b65;
+   color: #CBAEC1;
 }
 li a:link {
    color: #000;
@@ -56,18 +57,19 @@ li a:visited {
    color: #000;
 }
 li a:hover {
-   background-color: #504b65;
-   color: #fff;
+   background-color: #5c003d;
+   color: #CBAEC1;
 }
 li a:active {
    font-style: none;
 }
 h1 {
-   padding-top: 18px;
-   padding-left: 40px;
+   margin-top: 18px;
+   margin-left: 40px;
    font-family: 'AvenirNext-Heavy';
    font-size: 10rem;
-   letter-spacing: -1.5rem
+   letter-spacing: -1.5rem;
+   color: #5c003d;
 }
 #good {
    font-size: 2.68rem;
@@ -76,6 +78,9 @@ h2 {
    padding-left: 55px;
    font-family: 'AvenirNext-UltraLight';
    font-size: 3rem;
+}
+p {
+   font-family: 'Libre Baskerville', serif;
 }
 i {
 font-family: 'AvenirNext-UltraLightItalic';
