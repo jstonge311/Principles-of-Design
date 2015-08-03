@@ -11,19 +11,27 @@ header {
 }
 h1 {
    margin-top: 50px;
-   margin-left: 40px;
-   font-family: 'AvenirNext-Heavy';
+   padding-left: 110px;
+   font-family: 'Libre Baskerville';
+   font-weight: 700;
    font-size: 20rem;
    letter-spacing: -1.5rem;
    color: #5c003d;
 }
 h2 {
-   padding-left: 55px;
+   padding-left: 110px;
    font-family: 'AvenirNext-UltraLight';
    font-size: 6rem;
 }
+i {
+font-family: 'Libre Baskerville';
+font-style: italic;
+font-size: 3rem;
+}
 #good {
    font-size: 5.35rem;
+   font-family: 'AvenirNext-UltraLight';
+   letter-spacing: -.2rem;
 }
 ul:first-of-type {
    padding-top: 105px;
@@ -40,18 +48,6 @@ li {
    list-style: none;
    font-size: 2rem;
    text-align: center;
-}
-.current {
-   padding: 10px 22px 10px 22px;
-   background-color: #5c003d;
-   color: #CBAEC1;
-   font-family: "AvenirNext-Heavy";
-}
-.current-last{
-   padding: 10px 20px 10px 15px;
-   background-color: #5c003d;
-   color: #CBAEC1;
-   font-family: "AvenirNext-Heavy";
 }
 
 /* LINKS */
@@ -85,18 +81,6 @@ li a:visited {
 li a:hover {
    background-color: #5c003d;
    color: #CBAEC1;
-}
-
-main {
-   width: 300px;
-   margin: auto;
-}
-p {
-   font-family: 'Libre Baskerville', serif;
-}
-i {
-font-family: 'AvenirNext-UltraLightItalic';
-font-size: 4rem;
 }
 
 /* FONTS YAY */
