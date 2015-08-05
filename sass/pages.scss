@@ -1,0 +1,186 @@
+@import 'base.css';
+
+$font-stack1: 'Libre Baskerville', serif;
+$font-stack2: 'AvenirNext-UltraLight', sans-serif;
+$font-stack3: 'AvenirNext-Regular', sans-serif;
+
+body {
+   background: url(../img/handmadepaper.png);
+}
+header {
+   width: 1300px;
+   height: 250px;
+
+   .title {
+      float: left;
+      padding: 30px 0 0 15px;
+      width: 400px;
+   }
+   h1 {
+      float: left;
+      margin-top: 20px;
+      margin-left: 55px;
+      font-family: $font-stack1;
+      font-weight: 700;
+      font-size: 6rem;
+      letter-spacing: -.5rem;
+      color: #5c003d;
+      position: relative;
+      z-index: 50
+   }
+   h2 {
+      padding-left: 10px;
+      font-family: $font-stack2;
+      font-size: 2.5rem;
+   }
+   #good {
+      font-size: 2.3rem;
+      letter-spacing: -.1rem;
+   }
+   h3 {
+      font-size: 3rem;
+      font-family: $font-stack1;
+   }
+   .subhead {
+      position: absolute;
+      padding-top: 165px;
+      left: 55px;
+   }
+   .nav {
+      padding: 160px 110px 0 15px;
+      float: left;
+      text-align: left;
+   }
+   li {
+      font-family: $font-stack2;
+      display: inline;
+      font-size: 2rem;
+   }
+   .current {
+      padding: 7px 25px 12px 25px;
+      background-color: #5c003d;
+      color: #CBAEC1;
+      font-family: $font-stack1;
+      font-size: 2.27rem;
+      font-weight: 700;
+   }
+   .current-last{
+      padding: 7px 17px 12px 13px;
+      background-color: #5c003d;
+      color: #CBAEC1;
+      font-family: $font-stack1;
+      font-size: 2.27rem;
+      font-weight: 700;
+   }
+}
+p {
+   font-family: $font-stack1;
+   line-height: 1.6rem;
+}
+i {
+font-family: $font-stack1;
+font-size: 1.5rem;
+font-style: italic;
+color: #CBAEC1;
+}
+footer {
+   position: fixed;
+   left: 35%;
+   bottom: 10px;
+   p {
+      font-family: $font-stack3;
+      font-size: .7rem;
+      text-align: center;
+   }
+}
+
+/* LINKS */
+a{
+   &:link {
+      color: #5c003d;
+      text-decoration: none;
+   }
+   &:visited {
+      color: #5c003d;
+      text-decoration: none;
+   }
+   &:hover {
+      color: #CBAEC1;
+   }
+}
+li a{
+   &:link {
+      color: #000;
+      text-decoration: none;
+      padding: 10px 25px 10px 25px;
+      background-color: #CBAEC1;
+   }
+   &:visited {
+      color: #000;
+   }
+   &:hover {
+      background-color: #5c003d;
+      color: #CBAEC1;
+      padding: 10px 25px 10px 25px;
+   }
+   &.last:link {
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px 10px 15px;
+   }
+}
+/* BODY COPY INDENTATION */
+main {
+   margin-top: 100px;
+
+   &#one {
+      width: 375px;
+      margin-left: 167px;
+   }
+   &#two {
+      width: 345px;
+      margin-left: 239px;
+    }
+   &#three {
+      width: 350px;
+      margin-left: 315px;
+   }
+   &#four {
+      width: 350px;
+      margin-left: 386px;
+   }
+   &#five {
+      width: 350px;
+      margin-left: 459px;
+   }
+   &#six {
+      width: 325px;
+      margin-left: 530px;
+   }
+   &#seven {
+      width: 325px;
+      margin-left: 603px;
+   }
+   &#eight {
+      width: 325px;
+      margin-left: 675px;
+   }
+   &#nine {
+      width: 325px;
+      margin-left: 747px;
+   }
+   &#ten {
+      width: 325px;
+      margin-left: 818px;
+   }
+}
+
+/* FONTS */
+@font-face {
+   font-family: 'AvenirNext-Regular';
+   src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'AvenirNext-UltraLight';
+   src: url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
+}
