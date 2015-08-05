@@ -59,29 +59,33 @@ footer {
 }
 
 /* LINKS */
-li a:link {
-   color: #000;
-   text-decoration: none;
-   padding: 12px 25px 12px 25px;
-   background-color: #CBAEC1;
+li a {
+   &:link {
+      color: #000;
+      text-decoration: none;
+      padding: 12px 25px 12px 25px;
+      background-color: #CBAEC1;
+   }
+   &:visited {
+      font-style: none;
+      color: #000;
+   }
+   &:hover {
+      background-color: #5c003d;
+      color: #CBAEC1;
+   }
+   &.last:link {
+      padding: 12px 16px 12px 16px;
+   }
 }
-li a:visited {
-   font-style: none;
-   color: #000;
+footer a {
+   &:link {
+      color: #5c003d;
+      text-decoration: none;
+   }
+   &:visited {
+      color: #CBAEC1;
 }
-li a:hover {
-   background-color: #5c003d;
-   color: #CBAEC1;
-}
-li a.last:link {
-   padding: 12px 16px 12px 16px;
-}
-footer a:link {
-   color: #5c003d;
-   text-decoration: none;
-}
-footer a:visited {
-   color: #CBAEC1;
 }
 
 /* FONTS */
